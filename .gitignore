@@ -1,3 +1,7 @@
-__pycache__/
-*.pyc
-.env
+cd weather-info-app           # Extracted फोल्डर में जाएं
+git init                      # Git प्रोजेक्ट शुरू करें
+git add .                     # सभी फाइलें जोड़ें
+git commit -m "पहला डेमो"    # पहला वर्जन सेव करें
+git branch -M main            # Main ब्रांच बनाएं
+git remote add origin https://github.com/yourusername/weather-info-app.git
+git push -u origin main       # GitHub पर भेजें
